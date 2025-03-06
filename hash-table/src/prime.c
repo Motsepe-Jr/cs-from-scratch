@@ -22,6 +22,5 @@ int next_prime(int x) {
     while (is_prime(x) != 1) {
         x++;
     }
-
     return x;
 }
